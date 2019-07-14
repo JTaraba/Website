@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.name{
+    font-family: 'Iceland', cursive;
+    margin: auto;
+    position: absolute;
+    left: 53%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-text-fill-color: #d5d7db;
+    font-size: 90px;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: black;
+    display: flex;
+}
+
+.comp{
+    font-family: 'Iceland', cursive;
+    margin: auto;
+    position: absolute;
+    left: 52%;
+    top: 50%;
+    transform: translateX(-50%) translateY(100%);
+    -webkit-text-fill-color: #d5d7db;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-size: 40px;
+}
+
+body
+{
+background-color:  #2b2d33; 
+}
+
+.menu-items{
+    font-family: 'Iceland', cursive;
+    -webkit-text-fill-color: #d5d7db;
+    font-size:30px;
+    position: absolute;
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: black;
+    top: 50%;
+    left: 53%;
+    transform: translate(-350%, -25%);
+    border-right:20px;
+    border-right-color: red;
+}
+
+.about{
+    text-decoration: none;
+    -webkit-text-fill-color:  #d5d7db;
+    
+}
+
+.resume{
+    text-decoration: none;
+    -webkit-text-fill-color: #d5d7db;
+}
+
+.projects{
+    text-decoration: none;
+    -webkit-text-fill-color: #d5d7db;
+}
+
+.github{
+    text-decoration: none;
+    -webkit-text-fill-color: #d5d7db;
+}
+
+.about:hover{
+    -webkit-text-fill-color: grey;
+}
+
+.projects:hover{
+    -webkit-text-fill-color: grey;
+
+}
+
+.resume:hover{
+    -webkit-text-fill-color: grey;
+}
+
+.github:hover{
+    -webkit-text-fill-color: grey;
+}
+
+
+
+.menu-links{
+    font-family: 'Iceland', cursive;
+    -webkit-text-fill-color: black;
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-350%, -25%);
+    text-decoration: none;
+    opacity: 0;
+}
+
+.aboutlinks{
+    text-decoration: none;
+    -webkit-text-fill-color: black;
+}
+
+.resumelinks{
+        text-decoration: none;
+        -webkit-text-fill-color: black; 
+}
+
+.resumelinks{
+    text-decoration: none;
+        -webkit-text-fill-color: black;
+}
+
+.githublinks{
+    text-decoration: none;
+        -webkit-text-fill-color: black;
+}
+
+
