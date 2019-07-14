@@ -1,8 +1,8 @@
 {
-    "name" : "Website",
+    "name": "Website",
     "version": "1.0.0",
     "description": "",
-    "main":"index.js",
+    "main": "index.js",
     "scripts": {
         "deploy": "gh-pages -d config"
     },
@@ -11,6 +11,6 @@
     "license": "ISC",
     "homepage": "https://JTaraba.github.io/website",
     "dependencies": {
-        "gh-pages":"2.0.1"
+        "gh-pages": "^2.0.1"
     }
 }
