@@ -6,6 +6,7 @@
 
 body{
     background-color: #2b2d33;
+    overflow-x: hidden;
 }
 
 nav{
@@ -84,9 +85,10 @@ nav{
        display: flex;
        flex-direction: column;
        align-items: center;
-       width: 50%;
+       width: 30%;
        transform: translateX(100%);
        transition: transform 0.5s ease-in;
+       opacity: 0.95;
    }
    .nav-links li{
     opacity: 0;
@@ -96,10 +98,65 @@ nav{
    }
 
    .container{
+       position: absolute;
        width: 50px;
        left: 50%;
        top: 50%;
    }
+   .info{
+       width: 400px;
+   }
+   .code-pic{
+       display: none;
+   }
+   .links{
+       display: vertical;
+   }
+}
+@media screen and (max-width:1300px){
+    .code-pic{
+        transform: translateX(200px);
+    }
+
+    .links{
+        margin: auto;
+        top: 20%;
+    }
+    .twitter{
+        position: absolute;
+        left: 5%;
+        top: 50%;
+    }
+    .twitter img{
+        display: none;
+    }
+    .instagram{
+        position: absolute;
+        top: 55%;
+        left: 5%;
+    }
+    .instagram img{
+        display: none;
+    }
+    .facebook img{
+        display:none;
+    }
+
+    .facebook{
+        position: absolute;
+        top:60%;
+        left:5%;
+    }
+    .linkedin img{
+        display:none;
+    }
+
+    .linkedin{
+        position: absolute;
+        left: 5%;
+        top: 65%;
+    }
+    
 }
 
 .nav-active{
