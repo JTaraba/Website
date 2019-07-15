@@ -213,3 +213,37 @@ nav{
 .website-title:hover{
     opacity: 0.5;
 }
+
+/* hand track section*/
+.hand-picture{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #d5d7db;
+    position: absolute;
+    left: 15%;
+    top: 75%;
+}
+
+.hand-picture:hover{
+    opacity: 0.5;
+    /*width: 410px;
+    height: 210px;*/
+}
+
+.hand-title{
+    font-family: 'Iceland', cursive;
+    position: absolute;
+    left: 21%;
+    top: 104%;
+    margin:auto;
+    font-size: 40px;
+    }
+
+.hand-title a{
+    text-decoration: none;
+    color: #d5d7db; 
+}
+
+.hand-title:hover{
+    opacity: 0.5;
+}
