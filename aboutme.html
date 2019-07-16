@@ -6,68 +6,113 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Iceland&display=swap" rel="stylesheet">
     <link rel = "stylesheet" href = "about-style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src = "script.js"></script>
 
     <title>About</title>
 </head>
 <body>
-    <div class="container">
-        <div class="header">About Me</div>
-        <div class="info"><p>
-            I'm a computer engineering student attending Ryerson University in Toronto, Canada.
-            I plan to specialize in automation using different scripting technologies. 
-            The contents of this personal website outline all my completed projects and links to all of my socials.
-        </p></div>
-    </div>
-    <ul class="links">
-        <li>
-        <div class="twitter"><a href="https://www.twitter.com/joshtaraba"><img src="imgs/twitter-logo.png" alt="twitter logo">Twitter</a></div>
-        </li>
-        <li>
-        <div class="instagram"><a href="https://instagram.com/joshtaraba"><img src="imgs/instagram-logo.png" alt="instagram logo">Instagram</a></div>
-        </li>
-        <li>
-        <div class="facebook"><a href="https://facebook.com/josh.taraba"><img src="imgs/facebook-logo.png" alt="facebook logo">Facebook</a></div>
-        </li>
-        <li>
-        <div class="linkedin"><a href="https://www.linkedin.com/in/josh-taraba-8b81ab132/"><img src="imgs/linkedin-logo.png" alt="linkedin logo">LinkedIn</a></div>
-        </li>
-    </ul>
-
-    <nav>
-        <div class="logo">
-            <h4><a href="index.html">Josh Taraba</a></h4>
-        </div>
-        <ul class = "nav-links">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="aboutme.html">About</a>
-            </li>
-            <li>
-                <a href="resume-revamped.pdf">Resume</a>
-            </li>
-            <li>
-                <a href="projects.html">Projects</a>
-            </li>
-            <li>
-                <a href="https://www.github.com/Jtaraba">Github</a>
-            </li>
-        </ul>
-        <div class="section">
-            <div class = "line1"></div>
-            <div class = "line2"></div>
-            <div class = "line3"></div>
+    <nav class = "navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class = "navbar-brand" href="index.html">Josh Taraba</a>
+            <button class = "navbar-toggler dropdown-toggle" type = "button" data-toggle = "collapse" data-target= "#navbarResponsive">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+            <div class = "collapse navbar-collapse" id ="navbarResponsive">
+                <ul class = "topbar navbar-nav ml-auto">
+                    <li class = "nav-item">
+                        <a class = "nav-link dropdown-item" href="index.html">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link dropdown-item" href="aboutme.html">About</a>
+                    </li>
+                    <li class = "nav-item"> 
+                        <a class = "nav-link dropdown-item" href="resume-revamped.pdf">Resume</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link dropdown-item" href="projects.html">Projects</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link dropdown-item" href="https://www.github.com/Jtaraba">Github</a>
+                    </li>
+                </ul>
+                <div class = "dropdown-menu dropdown-menu-right">
+                    <ul class = "topbar navbar-nav ml-auto">
+                        <li class = "nav-item">
+                            <a class = "dropdown-item" href="index.html">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "dropdown-item" href="aboutme.html">About</a>
+                        </li>
+                        <li class = "nav-item"> 
+                            <a class = "dropdown-item" href="resume-revamped.pdf">Resume</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "dropdown-item" href="projects.html">Projects</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "dropdown-item" href="https://www.github.com/Jtaraba">Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
 
-    <script src = "script.js"></script>
+        <div class = "row padding"> </div>
+        <div class = "row padding"> </div>
+        <div class = "row padding"> </div>
 
-    
+        <div class = "container-fluid padding">
+        <div class="row padding">
+            <div class = "col-lg-2"></div>
+            <div class = "col-lg-4">
+                <h2 class = "aboutme">About Me</h2>
+                <p class = "info">I'm a computer engineering student attending Ryerson University in Toronto, Canada.
+                I plan to specialize in automation using different scripting technologies.
+                The contents of this personal website outline all my completed projects and links to all of my socials.</p>
+            </div>
 
-    <div class="picture">
-    <img class = "code-pic" src="imgs/code.jpg" alt="code">
+            <div class = "col-lg-5 col-mid-5 col-sm-12 col-xs-12">
+            <img class = "img-fluid" src = "imgs/code.jpg"></img>
+            <div class = "col-lg-1"> </div>
+        </div>
+        </div>
+
+    <div class = "container-fluid padding">
+    <div class = "row text-center padding">
+        <div class = "col-12 social padding">
+            <div class = "socials">
+            <a href="https://www.twitter.com/joshtaraba"><i class = "fab fa-twitter"></i></a>
+            <a href="https://instagram.com/joshtaraba"><i class = "fab fa-instagram"></i></a>
+            <a href="https://facebook.com/josh.taraba"><i class = "fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/josh-taraba-8b81ab132/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
     </div>
+    </div>
+
+    <footer>
+        <div class = "container-fluid padding">
+        <div class = "row text-center">
+            <div class="col-md-12">
+                <div class="contact">
+                <h1>Contact</h1>
+                <hr class = "light">
+                <p>289-696-2540</p>
+                <p>jtaraba@ryerson.ca</p>
+                <p>github.com/JTaraba</p>
+                <p>Toronto, ON</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
 
 </body>
 </html>
