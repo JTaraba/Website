@@ -247,3 +247,14 @@ nav{
 .hand-title:hover{
     opacity: 0.5;
 }
+
+@media screen and (max-width: 1140px){
+    .file-title{
+        position: absolute;
+        left: 43.5%;
+    }
+    .file-order{
+        position: absolute;
+        left: 35%;
+    }
+}

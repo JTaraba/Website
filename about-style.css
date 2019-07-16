@@ -104,9 +104,11 @@ nav{
    .info{
        width: 300px;
    }
-   .links{
-       width: 30%;
+   .links-links{
+       display: flex;
+       flex-direction: column;
    }
+
 }
 
 .nav-active{
