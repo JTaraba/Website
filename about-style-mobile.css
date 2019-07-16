@@ -108,6 +108,10 @@ nav{
     transform: translateX(0%);
 }
 
+.code-pic{
+    display: none;
+}
+
 @keyframes navLinkFade{
     from{
         opacity: 0;
@@ -258,5 +262,13 @@ nav{
     text-decoration: none;
     color: #d5d7db; 
 }
+
+@media screen and (max-width:1000px){
+    .code-pic{
+       display:none;
+    }
+}
+
+
 
 
