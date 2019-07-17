@@ -5,56 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Iceland&display=swap" rel="stylesheet">
-    <link rel = "stylesheet" href = "projects-style.css">
+    <link rel = "stylesheet" href = "projects-style-r.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
     <title>Projects</title>
 </head>
 <body>
-    <div class = "header-container"><h1 class = "header">Projects</h1></div>
-
-    <div class="fileOrder">
-        <a href="https://github.com/JTaraba/File-Ordering"><img class = "file-order" src="imgs/fileOrder-pic.png" alt="file order picture"></a>
-        <h1 class = "file-title"><a href="https://github.com/JTaraba/File-Ordering">File Organizer</a></h1>
-    </div>
-
-    <div class="website">
-        <a href="https://github.com/JTaraba/My-Website"><img class = "website-picture" src="imgs/website-picture.png" alt=""></a>
-        <h1 class = "website-title"><a href="https://github.com/JTaraba/My-Website">Personal Website</a></h1>
-    </div>
-
-    <div class="hand-tracking">
-        <a href="https://github.com/JTaraba/Hand-Tracker"><img class = "hand-picture" src="imgs/hand-tracker.png" alt=""></a>
-        <h1 class = "hand-title"><a href="https://github.com/JTaraba/Hand-Tracker">Hand Tracker</a></h1>
-    </div>
-
-    <nav>
-        <div class="logo">
-            <h4><a href="index.html">Josh Taraba</a></h4>
-        </div>
-        <ul class = "nav-links">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="aboutme.html">About</a>
-            </li>
-            <li>
-                <a href="resume-revamped.pdf">Resume</a>
-            </li>
-            <li>
-                <a href="projects.html">Projects</a>
-            </li>
-            <li>
-                <a href="https://www.github.com/Jtaraba">Github</a>
-            </li>
-        </ul>
-        <div class="section">
-            <div class = "line1"></div>
-            <div class = "line2"></div>
-            <div class = "line3"></div>
+    <nav class = "navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class = "navbar-brand" href="index.html">Josh Taraba</a>
+            <button class = "navbar-toggler dropdown-toggle" type = "button" data-toggle = "collapse" data-target= "#navbarResponsive">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+            <div class = "collapse navbar-collapse" id ="navbarResponsive">
+                <ul class = "topbar navbar-nav ml-auto">
+                    <li class = "nav-item">
+                        <a class = "nav-link dropdown-item" href="index.html">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link dropdown-item" href="aboutme.html">About</a>
+                    </li>
+                    <li class = "nav-item"> 
+                        <a class = "nav-link dropdown-item" href="resume-revamped.pdf">Resume</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link dropdown-item" href="projects.html">Projects</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link dropdown-item" href="https://www.github.com/Jtaraba">Github</a>
+                    </li>
+                </ul>
+                <div class = "dropdown-menu dropdown-menu-right">
+                    <ul class = "topbar navbar-nav ml-auto">
+                        <li class = "nav-item">
+                            <a class = "dropdown-item" href="index.html">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "dropdown-item" href="aboutme.html">About</a>
+                        </li>
+                        <li class = "nav-item"> 
+                            <a class = "dropdown-item" href="resume-revamped.pdf">Resume</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "dropdown-item" href="projects.html">Projects</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "dropdown-item" href="https://www.github.com/Jtaraba">Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
-    <script src = "script.js"></script>
+
+    <div class = "row padding"> </div>
+
+    <div class = "container-fluid padding">
+    <div class = "row padding">
+        <div class = "col-lg-12">
+            <h1 class = "projects-title text-center">Projects</h1>
+        </div>
+        <div class = "col-lg-1 col-md-1"> </div>
+        <div class = " file-order col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <a href="https://github.com/JTaraba/File-Ordering"><img class = "fileorder-pic img-fluid" src="imgs/fileOrder-pic.png">
+            <h2 class = "fileorder-title text-center">File Organizer</h2></a>
+        </div>
+        <div class = "col-lg-2 col-md-2"> </div>
+        <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <a href="https://github.com/JTaraba/My-Website"><img class = "website-pic img-fluid" src="imgs/website-picture.png">
+            <h2 class = "website-title text-center">Website</h2></a>
+        </div> <div class = "col-lg-1 col-md-1"> </div>
+
+       <div class = "col-lg-12"> </div>
+       <div class = "col-lg-12"> </div>
+
+        <div class = "col-lg-1 col-md-1"> </div>
+        <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <a href="https://github.com/JTaraba/Hand-Tracker"><img class = "handtracker-pic img-fluid" src="imgs/hand-tracker.png">
+            <h2 class = "handtracker-title text-center">Hand Tracker</h2></a>
+        </div>
+
+    </div>
+    </div>
+
+    <div class = "row padding"> </div>
+    <div class = "row padding"> </div>
+
+    <footer>
+        <div class = "container-fluid padding">
+        <div class = "row text-center">
+            <div class="col-md-12">
+                <div class="contact">
+                <h1>Contact</h1>
+                <hr class = "light">
+                <p>289-696-2540</p>
+                <p>jtaraba@ryerson.ca</p>
+                <p>github.com/JTaraba</p>
+                <p>Toronto, ON</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
 
 
     </body>

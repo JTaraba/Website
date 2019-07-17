@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.navbar {
+  padding: 0.8rem;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.navbar-brand{
+  padding-left: 50px;
+}
+
+.button{
+  cursor: pointer;
+}
+
+.nav-active{
+  transform: translateX(0%);
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a{
+    font-size: 3em;
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .social a{
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .social a{
+    font-size: 2em;
+    padding: 0.7rem;
+  }
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #2b2d33 !important;
+}
+
+nav{
+  background-color:#222429 !important;
+}
+
+.nav-link{
+  -webkit-text-fill-color: white;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+
+.nav-link:hover{
+  -webkit-text-fill-color: grey;
+
+}
+
+.navbar{
+  background-color:#222429 !important;
+}
+
+.navbar-toggler-icon{
+ border-color: #d5d7db !important;
+}
+
+.navbar-brand{
+  font-family: 'Iceland', cursive;
+  -webkit-text-fill-color: white;
+  font-size: 30px !important;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.topbar{
+  font-family: 'Iceland', cursive;
+}
+
+.aboutme{
+  font-family: 'Iceland', cursive;
+  -webkit-text-fill-color: #d5d7db;
+  font-size: 40px;
+  letter-spacing: 2px;
+  justify-content: space-around;
+
+}
+
+.navbar{
+  background-color: #2b2d33;
+}
+
+.row{
+  padding-top: 20px;
+}
+
+footer {
+  padding-top: 2rem;
+}
+
+hr.light{
+  border-top: 1px solid #d5d7db;
+  width: 100%;
+}
+
+.contact{
+  font-family: 'Iceland', cursive;
+  color: #d5d7db;
+}
+
+.contact p{
+  font-size: 21px;
+  color: #d5d7db;
+}
+
+/*Exclusive to Projects Page*/
+.projects-title{
+  color: #d5d7db;
+  font-size: 50px;
+  font-family: 'Iceland', cursive;
+}
+
+/* File Order*/
+.fileorder-title{
+  color: #d5d7db;
+  font-size: 40px;
+  font-family: 'Iceland', cursive;
+  margin: auto;
+  text-decoration: none;
+}
+
+.fileorder-pic{
+  border: 1px solid #d5d7db;
+}
+
+.fileorder-title:hover{
+  color: grey;
+}
+
+.file-order a{
+  text-decoration: none;
+}
+
+.fileorder-pic:hover{
+  opacity: 0.5;
+}
+
+
+/* Website */
+.website-title{
+  color: #d5d7db;
+  font-size: 40px;
+  font-family: 'Iceland', cursive;
+  margin: auto;
+  text-decoration: none;
+}
+
+.website-title a{
+  text-decoration: none;
+}
+
+.website-pic{
+  border: 1px solid #d5d7db;
+}
+
+.website-title:hover{
+  color: grey;
+}
+
+.website-pic:hover{
+  opacity: 0.5;
+}
+
+/* Hand Tracker*/
+.handtracker-title{
+  color: #d5d7db;
+  font-size: 40px;
+  font-family: 'Iceland', cursive;
+  margin: auto;
+  text-decoration: none;
+}
+
+.handtracker-title a{
+  text-decoration: none;
+}
+
+.handtracker-title:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+.handtracker-pic{
+  border: 1px solid #d5d7db;
+}
+
+.handtracker-pic:hover{
+  opacity: 0.5;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
