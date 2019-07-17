@@ -23,7 +23,7 @@
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a{
-    font-size: 3em;
+    font-size: 4em;
     padding: 2rem;
   }
 }
@@ -38,8 +38,8 @@
 }
 @media (max-width: 576px) {
   .social a{
-    font-size: 2em;
-    padding: 0.7rem;
+    font-size: 2px;;
+    padding: 0.2rem;
   }
 
   .img-fluid{
@@ -169,8 +169,8 @@ nav{
 }
 
 .social a{
-  font-size: 3em;
-  padding: 3rem;
+  font-size: 2em;
+  padding: 0.7rem;
 }
 
 .fa-facebook{
