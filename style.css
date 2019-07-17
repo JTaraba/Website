@@ -122,4 +122,12 @@ background-color:  #2b2d33;
         -webkit-text-fill-color: black;
 }
 
+@media (max-width: 576px){
+    .menu-links{
+        display: hidden;
+    }
+    .menu-items{
+        display:hidden;
+    }
+}
 
