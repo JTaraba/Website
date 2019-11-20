@@ -245,6 +245,32 @@ hr.light{
   opacity: 0.5;
 }
 
+/* Bank App */
+.bankapp-title{
+  color: #d5d7db;
+  font-size: 40px;
+  font-family: 'Iceland', cursive;
+  margin: auto;
+  text-decoration: none;
+}
+
+.bankapp-title a{
+  text-decoration: none;
+}
+
+.bankapp-title:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+.bankapp-pic{
+  border: 1px solid #d5d7db;
+}
+
+.bankapp-pic:hover{
+  opacity: 0.5;
+}
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
